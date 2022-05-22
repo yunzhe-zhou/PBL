@@ -1,20 +1,10 @@
-# Testing Directed Acyclic Graph via Structural, Supervised and Generative Adversarial Learning
+# Optimizing Pessimism in Dynamic Treatment Regimes: A Bayesian Learning Approach
 
-This repository contains the implementation for the paper ["Testing Directed Acyclic Graph via Structural, Supervised and Generative Adversarial Learning
-"](https://arxiv.org/pdf/2106.01474.pdf) in Python. 
+This repository contains the implementation for the paper ["Optimizing Pessimism in Dynamic Treatment Regimes: A Bayesian Learning Approach"](https://openreview.net/pdf?id=8tABKfhBBpJ) in Python. 
 
 ## Summary of the paper
 
-In this article, we propose a new hypothesis testing method for directed acyclic graph
-(DAG). While there is a rich class of DAG estimation methods, there is a relative paucity
-of DAG inference solutions. Moreover, the existing methods often impose some specific
-model structures such as linear models or additive models, and assume independent data
-observations. Our proposed test instead allows the associations among the random vari-
-ables to be nonlinear and the data to be time-dependent. We build the test based on some
-highly flexible neural networks learners. We establish the asymptotic guarantees of the
-test, while allowing either the number of subjects or the number of time points for each
-subject to diverge to infinity. We demonstrate the efficacy of the test through simulations
-and a brain connectivity network analysis.
+In this article, we propose a novel pessimism-based Bayesian learning method for optimal dynamic treatment regimes in the offline setting. When the coverage condition does not hold, which is common for offline data, the existing solutions would produce sub-optimal policies. The pessimism principle addresses this issue by discouraging recommendation of actions that are less explored conditioning on the state. However, nearly all pessimism-based methods rely on a key hyper-parameter that quantifies the degree of pessimism, and the performance of the methods can be highly sensitive to the choice of this parameter. We propose to integrate the pessimism principle with Thompson sampling and Bayesian machine learning for optimizing the degree of pessimism. We derive a credible set whose boundary uniformly lower bounds the optimal Q-function, and thus no longer require the tuning of the degree of pessimism. We develop a general Bayesian learning method that works with a range of models, from Bayesian linear basis model to Bayesian neural network model. We develop the computational algorithm based on variational inference, which is highly efficient and scalable. We establish the theoretical guarantees of the proposed method, and show empirically that it outperforms the existing state-of-the-art solutions through both simulations and a real data example. 
 
 
 **Figures**:  
