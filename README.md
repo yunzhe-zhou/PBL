@@ -28,6 +28,12 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 ## File Overview
 - `src/`: This folder contains all python codes used in numerical experiments and real data analysis.
   - 'BayesBackpropagation.py' is the utils function for Bayesian neural network. (Refers to https://github.com/saxena-mayur/Weight-Uncertainty-in-Neural-Networks)
+  - 'toy_example.py' is the script to run for toy example.
+  - 'BLBM_linear_stage1.py' and 'BLBM_nonlinear_stage1.py' are the scripts to run for BLBM in single stage. 
+  - 'BLBM_linear_stage2.py' and 'BLBM_nonlinear_stage2.py' are the scripts to run for BLBM in two stages. 
+  - 'BNN_linear_stage1.py' and 'BNN_nonlinear_stage1.py' are the scripts to run for BNN in single stage. 
+  - 'BNN_linear_stage2.py' and 'BNN_nonlinear_stage2.py' are the scripts to run for BNN in two stages. 
+  - 'real_stage1.py' and 'real_stage2.py' are for the Mimic III dataset.
 - `data/`: This folder where the output results and the dataset should be put. It also includes the functions to generate the plots.
   - 'plot_toy.py' generates plots for the results of toy example.
   - 'plot_sim.py' generates plots for the results of simulations.
