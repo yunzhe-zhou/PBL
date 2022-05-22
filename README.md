@@ -11,7 +11,7 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 
 | Size | Power | Power Difference |
 | :-------:    |  :-------: |  :-------: |
-| <img align="center" src="sim_null.png" alt="drawing" width="500">   | <img align="center" src="sim_alter.png" alt="drawing" width="500" >  | <img align="center" src="sim_diff.png" alt="drawing" width="500" >  
+| <img align="center" src="stage1_linear.png" alt="drawing" width="500">   | <img align="center" src="stage1_nonlinear.png" alt="drawing" width="500" >  | <img align="center" src="sim_diff.png" alt="drawing" width="500" >  
 
 ## Requirement
 
