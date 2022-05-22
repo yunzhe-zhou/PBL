@@ -22,11 +22,7 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
     + numpy 1.18.5
     + scipy 1.5.4
     + torch 1.0.0
-    + tensorflow 2.1.3
     + sklearn 0.23.2
-
-+ R 3.6.3
-    + clrdag (https://github.com/chunlinli/clrdag)
 
 
 ## File Overview
@@ -37,5 +33,7 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
   - `main_lrt.R` is to implement the methods in ["Likelihood ratio tests for a large directed acyclic graph"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7508303/)
   - `nonlinear_learning.py` is used for structural learning of the graphs. (Refers to https://github.com/xunzheng/notears)
   - `plot.py` contains the functions to load test results and draw plots.
-- `data/`: This folder where the output results and the dataset should be put.
-  - 'data_process.R' is used for preprocessing the HCP dataset. 
+- `data/`: This folder where the output results and the dataset should be put. It also includes the functions to generate the plots.
+  - 'plot_toy.py' generates plots for the results of toy example.
+  - 'plot_sim.py' generates plots for the results of simulations.
+  - 'plot_real.py' generates plots for the results of real dataset.
