@@ -15,7 +15,7 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 | Two Stages Linear | Two Stages Nonlinear | 
 | <img align="center" src="stage2_linear.png" alt="drawing" width="500">   | <img align="center" src="stage2_nonlinear.png" alt="drawing" width="500" > |
 | Single Stage Mimic III | Two Stages Mimic III | 
-| <img align="center" src="stage1_real.png" alt="drawing" width="500">   | <img align="center" src="stage2_real.png" alt="drawing" width="500" > |
+| <img align="center" src="real_stage1.png" alt="drawing" width="500">   | <img align="center" src="real_stage2.png" alt="drawing" width="500" > |
 ## Requirement
 
 + Python 3.6
