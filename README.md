@@ -20,10 +20,16 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 
 Use the following command to install the required dependencies: `pip install -r requirements.txt`.
 + Python 3.6
-    + numpy 1.18.5
-    + scipy 1.5.4
-    + torch 1.0.0
-    + sklearn 0.23.2
+    + matplotlib==3.3.3
+    + numpy==1.18.5
+    + pandas==1.1.5
+    + python-igraph==0.8.2
+    + scikit-learn==0.23.2
+    + scipy==1.5.4
+    + sklearn==0.0
+    + statsmodels==0.12.1
+    + torch==1.0.0
+    + xlwt==1.3.0
 
 
 ## File Overview
