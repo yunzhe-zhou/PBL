@@ -28,7 +28,7 @@ Use the following command to install the required dependencies: `pip install -r 
 
 ## File Overview
 - `src/`: This folder contains all python codes used in numerical experiments and real data analysis.
-  - 'BayesBackpropagation.py' is the utils function for Bayesian neural network. (Refers to https://github.com/saxena-mayur/Weight-Uncertainty-in-Neural-Networks)
+  - `BayesBackpropagation.py` is the utils function for Bayesian neural network. (Refers to https://github.com/saxena-mayur/Weight-Uncertainty-in-Neural-Networks)
   - `toy_example.py` is the script to run for toy example.
   - `BLBM_linear_stage1.py` and `BLBM_nonlinear_stage1.py` are the scripts to run for BLBM in single stage. 
   - `BLBM_linear_stage2.py` and `BLBM_nonlinear_stage2.py` are the scripts to run for BLBM in two stages. 
