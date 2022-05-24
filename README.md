@@ -18,6 +18,7 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 | <img align="center" src="real_stage1.png" alt="drawing" width="500">   | <img align="center" src="real_stage2.png" alt="drawing" width="500" > |
 ## Requirement
 
+Use the following command to install the required dependencies: 'pip install -r requirements.txt'.
 + Python 3.6
     + numpy 1.18.5
     + scipy 1.5.4
