@@ -48,4 +48,4 @@ Use the following command to install the required dependencies: `pip install -r 
   - `plot_toy.ipynb` generates plots for the results of toy example.
   - `plot_sim.ipynb` generates plots for the results of simulations.
   - `plot_real.ipynb` generates plots for the results of real dataset.
-  - `plot_real.ipynb` generates plots for the results of sensitivity analysis.
+  - `plot_sensitivity.ipynb` generates plots for the results of sensitivity analysis.
