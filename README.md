@@ -51,7 +51,8 @@ Use the following command to install the required dependencies: `pip install -r 
   - `plot_sensitivity.ipynb` generates plots for the results of sensitivity analysis.
   
   
-  
+## Citation
+ 
 Please cite our paper
 ["Optimizing Pessimism in Dynamic Treatment Regimes: A Bayesian Learning Approach"](https://arxiv.org/abs/2210.14420) 
 
