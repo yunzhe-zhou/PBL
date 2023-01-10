@@ -11,11 +11,11 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 
 | Single Stage Linear | Single Stage Nonlinear | 
 | :-------:    |  :-------: | 
-| <img align="center" src="stage1_linear.png" alt="drawing" width="500">   | <img align="center" src="stage1_nonlinear.png" alt="drawing" width="500" > |
+| <img align="center" src="stage1_linear.svg" alt="drawing" width="500">   | <img align="center" src="stage1_nonlinear.svg" alt="drawing" width="500" > |
 | Two Stages Linear | Two Stages Nonlinear | 
-| <img align="center" src="stage2_linear.png" alt="drawing" width="500">   | <img align="center" src="stage2_nonlinear.png" alt="drawing" width="500" > |
+| <img align="center" src="stage2_linear.svg" alt="drawing" width="500">   | <img align="center" src="stage2_nonlinear.svg" alt="drawing" width="500" > |
 | Single Stage Mimic III | Two Stages Mimic III | 
-| <img align="center" src="real_stage1.png" alt="drawing" width="500">   | <img align="center" src="real_stage2.png" alt="drawing" width="500" > |
+| <img align="center" src="real_stage1.svg" alt="drawing" width="500">   | <img align="center" src="real_stage2.svg" alt="drawing" width="500" > |
 ## Requirement
 
 Use the following command to install the required dependencies: `pip install -r requirements.txt`.
