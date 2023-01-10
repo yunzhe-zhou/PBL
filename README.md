@@ -49,3 +49,17 @@ Use the following command to install the required dependencies: `pip install -r 
   - `plot_sim.ipynb` generates plots for the results of simulations.
   - `plot_real.ipynb` generates plots for the results of real dataset.
   - `plot_sensitivity.ipynb` generates plots for the results of sensitivity analysis.
+  
+  
+  
+Please cite our paper
+["Optimizing Pessimism in Dynamic Treatment Regimes: A Bayesian Learning Approach"](https://arxiv.org/abs/2210.14420) 
+
+``` 
+@article{zhou2022optimizing,
+  title={Optimizing Pessimism in Dynamic Treatment Regimes: A Bayesian Learning Approach},
+  author={Zhou, Yunzhe and Qi, Zhengling and Shi, Chengchun and Li, Lexin},
+  journal={arXiv preprint arXiv:2210.14420},
+  year={2022}
+}
+``` 
