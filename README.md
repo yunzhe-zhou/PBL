@@ -17,7 +17,7 @@ In this article, we propose a novel pessimism-based Bayesian learning method for
 | Single Stage Mimic III | Two Stages Mimic III | 
 | <img align="center" src="stage1_real.svg" alt="drawing" width="500">   | <img align="center" src="stage2_real.svg" alt="drawing" width="500" > |
 | Toy Example | Sensitivity Analysis | 
-| <img align="center" src="toy_example.svg" alt="drawing" width="500">   | <img align="center" src="stage1_linear_sensitivity.svg" alt="drawing" width="500" > |
+| <img align="center" src="toy_example.svg" alt="drawing" width="400">   | <img align="center" src="stage1_linear_sensitivity.svg" alt="drawing" width="500" > |
 ## Requirement
 
 Use the following command to install the required dependencies: `pip install -r requirements.txt`.
