@@ -44,7 +44,7 @@ Use the following command to install the required dependencies: `pip install -r 
   - `BNN_linear_stage2.py` and `BNN_nonlinear_stage2.py` are the scripts to run for BNN in two stages. 
   - `real_stage1.py` and `real_stage2.py` are for the Mimic III dataset.
   - `BNN_linear_stage1_run.py` is used to customize the choices of hyperparameters for sensitivity analysis.
-- `data/`: This folder where the output results and the dataset should be put. The dataset is private and can be accessed from https://physionet.org/content/mimiciv/0.4/. It also includes the functions to generate the plots.
+- `data/`: This folder where the output results and the dataset should be put. The dataset is private and can be requested from https://physionet.org/content/mimiciv/0.4/. It also includes the functions to generate the plots.
   - `plot_toy.ipynb` generates plots for the results of toy example.
   - `plot_sim.ipynb` generates plots for the results of simulations.
   - `plot_real.ipynb` generates plots for the results of real dataset.
